@@ -1,0 +1,13 @@
+{
+  "name": "2048",
+  "version": "0.0.0",
+  "authors": [
+    "Olav Haugen <olahau@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "~2.0.0"
+  }
+}

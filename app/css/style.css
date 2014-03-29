@@ -1,0 +1,111 @@
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+h1 {
+  font-size: 72pt;
+  margin: 0;
+}
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#board {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48pt;
+  width: 400px;
+  display: table;
+  table-layout: fixed;
+  border: 4px solid gray;
+  border-radius:4px;
+}
+.row {
+  display: table-row;
+}
+.cell {
+  background-color: #EEEEEE;
+  border: 4px solid gray;
+  display: table-cell;
+  text-align: center;
+  height: 90px;
+  line-height: 90px;
+}
+.cell-2 {
+  background-color: #67E667;
+}
+.cell-2:after {
+  content: "2";
+  font-size: 36pt;
+}
+.cell-4 {
+  background-color: #5CCCCC;
+}
+.cell-4:after {
+  content: "4";
+  font-size: 36pt;
+}
+.cell-8 {
+  background-color: #FFB273;
+}
+.cell-8:after {
+  content: "8";
+  font-size: 36pt;
+}
+.cell-16 {
+  background-color: #FF7373;
+}
+.cell-16:after {
+  content: "16";
+  font-size: 32pt;
+}
+.cell-32 {
+  background-color: #00CC00;
+}
+.cell-32:after {
+  content: "32";
+  font-size: 32pt;
+}
+.cell-64 {
+  background-color: #009999;
+}
+.cell-64:after {
+  content: "64";
+  font-size: 32pt;
+}
+.cell-128 {
+  background-color: #FF7400;
+}
+.cell-128:after {
+  content: "128";
+  font-size: 28pt;
+}
+.cell-256 {
+  background-color: #FF0000;
+}
+.cell-256:after {
+  content: "256";
+  font-size: 28pt;
+}
+.cell-512 {
+  background-color: #269926;
+}
+.cell-512:after {
+  content: "512";
+  font-size: 28pt;
+}
+.cell-1024 {
+  background-color: #1D7373;
+}
+.cell-1024:after {
+  content: "1024";
+  font-size: 24pt;
+}
+.cell-2048 {
+  background-color: #BF7130;
+}
+.cell-2048:after {
+  content: "2048";
+  font-size: 24pt;
+}

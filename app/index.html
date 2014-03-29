@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+	<title>2048</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<script src="js/prototypes/array.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/display.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/key-events.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/board.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/game.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">
+	window.onload = function () {
+		var game = new Game("board");
+		game.start();
+	}
+	</script>
+</head>
+<body>
+	<div id="container">
+		<h1>2048</h1>
+		<div>Score: <span id="score">0</span></div>
+
+		<div id="board">
+			<div class="row">
+				<div class="cell"></div>
+				<div class="cell"></div>
+				<div class="cell"></div>
+				<div class="cell"></div>
+			</div>
+			<div class="row">
+				<div class="cell"></div>
+				<div class="cell"></div>
+				<div class="cell"></div>
+				<div class="cell"></div>
+			</div>
+			<div class="row">
+				<div class="cell"></div>
+				<div class="cell"></div>
+				<div class="cell"></div>
+				<div class="cell"></div>
+			</div>
+			<div class="row">
+				<div class="cell"></div>
+				<div class="cell"></div>
+				<div class="cell"></div>
+				<div class="cell"></div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
