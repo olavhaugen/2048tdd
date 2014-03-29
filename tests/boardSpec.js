@@ -19,9 +19,7 @@ describe("Board", function() {
           [ 8,  2, '', '']
     ];
 
-    var board = new Board();
     var result = board.moveLeft(boardBefore);
-
     expect(boardAfter).toEqual(result);
   });
 
@@ -32,13 +30,9 @@ describe("Board", function() {
           ['', '', '', ''],
           ['', '',  8,  2]
     ];
-
-    var board = new Board();
     var result = board.moveRight(boardBefore);
-
     expect(boardAfter).toEqual(result);
   });
-
 
   it("moveUp should sum numbers to upwards", function() {
     var boardAfter = [
@@ -47,10 +41,7 @@ describe("Board", function() {
           ['', '', '', ''],
           ['', '', '', '']
     ];
-
-    var board = new Board();
     var result = board.moveUp(boardBefore);
-
     expect(boardAfter).toEqual(result);
   });
 
@@ -61,8 +52,6 @@ describe("Board", function() {
           [ 4, '',  2,  4],
           [ 4,  4,  8,  4]
     ];
-
-    var board = new Board();
     var result = board.moveDown(boardBefore);
     expect(boardAfter).toEqual(result);
   });
